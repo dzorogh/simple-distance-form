@@ -81,7 +81,6 @@ $button.on('click', function(e) {
             resultTest += `${resultModulusInM}м`;
 
             $results.text(resultTest);
-            $results.show();
         } else {
             alert('Не удалось получить расстояние');
         }
