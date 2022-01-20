@@ -62,7 +62,6 @@ $('#originAddress').suggestions({
 $button.on('click', function(e) {
     e.preventDefault();
 
-    $results.hide();
     disableButton();
 
     $.post('/api/distance-to-office', {
