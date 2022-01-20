@@ -11,7 +11,7 @@
 
 </head>
 <body>
-<div class="container py-5">
+<div class="container col-lg-4 col-md-6 py-5">
     <div class="mb-3">
         <label for="destinationAddress" class="form-label">Адрес назначения</label>
         <input type="text" class="form-control" id="originAddress" placeholder="Начните вводить адрес">
